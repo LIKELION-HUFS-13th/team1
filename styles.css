@@ -1,43 +1,59 @@
 body {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    height: 100vh;
+    flex-direction: column;
+    height: auto;
+    margin: 0;
 }
 
-.picture1 {
+.page {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0;
+}
+
+#page1 {
+    flex-direction: row;
+}
+
+#page1 .picture1 {
+    flex: 1;
     display: flex;
     justify-content: flex-start;
 }
 
-.intro {
+#page1 .intro {
+    flex: 1;
     display: flex;
     top: 10px;
     flex-direction: column;
+    text-align: right;
     margin-right: 100px;
     margin-top: 9%;
 }
 
 .int1 {
     font-size: 45px;
-    text-align: right;
 }
 
 .int2 {
     font-size: 45px;
     margin-bottom: 10px;
-    text-align: right;
 }
 
 .int3 {
     font-size: 20px;
     margin-bottom: 5px;
-    text-align: right;
+    font-weight: lighter;
 }
 
 .int4 {
     font-size: 20px;
-    text-align: right;
+    font-weight: lighter;
 }
 
 .notation {
@@ -51,7 +67,8 @@ body {
 .LT {
     font-size: 35px;
     font-weight: bold;
-    line-height: 0.8;
+    line-height: 0.001;
+    margin-top: 20px;
 }
 
 .ST {
@@ -60,18 +77,83 @@ body {
     line-height: 0.8;
 }
 
-.box1,
+#page1 .box1,
 .box2 {
     width: 240px;
     height: 100px;
     background-color: rgb(72, 69, 69);
     color: white;
-    border: 2px solid lightgray;
+    border: 1px solid lightgray;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 3px;
     font-weight: bold;
-    visibility: visible;
+}
+
+#page2 {
+    flex-direction: row-reverse;
+    position: relative;
+}
+
+#page2 .intro {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 55px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+#page2 .picture2 {
+    width: 745px;
+    height: 550px;
+    overflow: hidden;
+    position: relative;
+}
+
+#page2 .picture2 img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    padding-right: 300px;
+}
+
+#page2 .text-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 67%;
+    color: white;
+    font-size: 27px;
+    font-weight: bold;
+    background: linear-gradient(to top, rgba(0, 0, 0, 3), rgba(0, 0, 0, 0));
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.int5 {
+    font-size: 50px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.int6 {
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(117, 115, 115);
+}
+
+.int7 {
+    font-size: 8px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 60px;
 }

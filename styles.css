@@ -157,3 +157,44 @@ body {
     justify-content: flex-end;
     padding-right: 60px;
 }
+
+.icons {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.icon {
+    margin-left: 20px;
+}
+
+.photo,
+.mic,
+.videorec {
+    width: 30px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.photodescrip {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 230px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.micdescrip {
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.videodescrip {
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: lighter;
+    font-size: 20px;
+}

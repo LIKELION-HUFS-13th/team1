@@ -37,11 +37,11 @@ body {
 }
 
 .int1 {
-    font-size: 45px;
+    font-size: 55px;
 }
 
 .int2 {
-    font-size: 45px;
+    font-size: 55px;
     margin-bottom: 10px;
 }
 
@@ -62,14 +62,14 @@ body {
     gap: 5px;
     margin-top: 110px;
     margin-right: 200px;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
 .box1,
 .box2 {
     display: flex;
     flex-direction: column;
-    marign-right: 20px;
+    margin-right: 20px;
 }
 
 .top {
@@ -91,7 +91,7 @@ body {
 
 .LT {
     display: flex;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
     flex-direction: column;
 
@@ -150,7 +150,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     display: block;
-    padding-right: 300px;
+    padding-right: 290px;
 }
 
 #page2 .text-overlay {

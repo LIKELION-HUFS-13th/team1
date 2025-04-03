@@ -32,21 +32,21 @@ body {
     top: 10px;
     flex-direction: column;
     text-align: right;
-    margin-right: 100px;
-    margin-top: 9%;
+    margin-right: 50px;
+    margin-top: 5%;
 }
 
 .int1,
 .int2,
 .int3,
 .int4 {
-    margin-right: 20px;
+    margin-right: 5px;
 }
 
 .int1,
 .int2 {
     font-family: 'Noto Sans Korean', sans-serif;
-    font-size: 55px;
+    font-size: 50px;
     font-weight: 500;
 }
 
@@ -68,7 +68,7 @@ body {
     display: flex;
     flex-direction: flex-end;
     gap: 5px;
-    margin-top: 110px;
+    margin-top: 40px;
     margin-left: 30px;
 }
 
@@ -100,7 +100,7 @@ body {
 .LT {
     font-family: 'Noto Serif', serif;
     display: flex;
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 600;
     flex-direction: column;
     margin-bottom: 25px;
@@ -112,7 +112,7 @@ body {
 .ST {
     font-family: 'Noto Serif', serif;
     display: flex;
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 10px;
     font-weight: 500;
     line-height: 0.8;
@@ -120,8 +120,8 @@ body {
 
 #page1 .box1,
 .box2 {
-    width: 350px;
-    height: 180px;
+    width: 300px;
+    height: 150px;
     background-color: rgb(72, 69, 69);
     color: white;
     border: 1px solid lightgray;

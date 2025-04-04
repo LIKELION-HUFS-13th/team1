@@ -1,0 +1,55 @@
+/* 전체 레이아웃 */
+body {
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* 왼쪽: 배경 이미지 */
+.left {
+    width: 50%;
+    height: 100vh;
+    position: relative;
+    background-image: url('door.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* 아이콘 */
+.onoff-icon {
+    position: absolute;
+    top: 75%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+}
+
+/* 오른쪽: 텍스트 박스 */
+.right {
+    width: 50%;
+    height: 100vh;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+    box-sizing: border-box;
+}
+
+.main-text {
+    font-size: 28px;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.sub-text {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}

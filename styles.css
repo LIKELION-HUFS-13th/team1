@@ -1,10 +1,58 @@
 body {
-    display: flex;
-    flex-direction: column;
-    height: auto;
     margin: 0;
+    /* 재성 */
+    scroll-behavior: smooth;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+/* 재성 */
+header {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0d0d0d;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    color: #ffffff;
 }
 
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.cta-button {
+    background-color: #4c7eff;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+section {
+    padding: 6rem 2rem;
+}
+
+.hero {
+    text-align: center;
+    background-color: #0d0d0d;
+    color: #ffffff;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #cccccc;
+    margin-bottom: 2rem;
+}
+/* 재성 */
 .page {
     min-height: 100vh;
     width: 100%;
@@ -246,3 +294,12 @@ body {
     font-weight: 600;
     font-size: 22px;
 }
+/* 재성 */
+footer {
+    padding: 2rem;
+    background-color: #0d0d0d;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #aaaaaa;
+}
+/* 재성 */

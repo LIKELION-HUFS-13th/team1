@@ -52,12 +52,9 @@ section {
     color: #cccccc;
     margin-bottom: 2rem;
 }
-/* 재성 */
-<<<<<<< HEAD
+/* 재성*/
 
 /* 황준호 */
-=======
->>>>>>> 9c73b28299705a9775f086735448ef63a4d223ad
 .page {
     min-height: 100vh;
     width: 100%;
@@ -279,7 +276,6 @@ section {
     display: flex;
     align-items: center;
 }
-<<<<<<< HEAD
 
 @media (max-width: 768px) {
     .page {
@@ -314,8 +310,6 @@ section {
 
 /* 황준호 */
 
-=======
->>>>>>> 9c73b28299705a9775f086735448ef63a4d223ad
 /* 재성 */
 footer {
     padding: 2rem;

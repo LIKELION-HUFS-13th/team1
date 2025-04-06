@@ -130,11 +130,7 @@ section {
     font-family: 'Noto Sans Korean', sans-serif;
     font-size: 2.5vw;
     font-weight: 600;
-    margin-bottom: 0.4vw;
-}
-
-.int2 {
-    margin-bottom: 1vw;;
+    margin-bottom: 0.2vw;
 }
 
 .int3,
@@ -165,7 +161,7 @@ section {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2vw;
     font-weight: 400;
-    margin-bottom: 10px;
+    margin-bottom: 1.2vw;;
 }
 
 .notation {
@@ -402,35 +398,24 @@ section {
     top: -10vh;
 }
 
-.int7,
-.int8 {
+.int8,
+.int9 {
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 3vw;
     font-weight: 500;
     line-height: 1.5;
-    margin-bottom: 1vw;
+    margin-bottom: 0.1vw;
     margin: 0;
 }
 
-.int9 {
-    font-family: 'Montserrat', sans-serif;
+.int10, .int11, .int12 {
+    font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
-    font-size: 1.6vw;
-    color: rgb(87, 86, 86);
+    font-size: 1vw;
     line-height: 1;
     word-break: keep-all;
     white-space: normal;
     margin-bottom: 1.5;
-}
-
-.int10 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 1.6vw;
-    color: rgb(87, 86, 86);
-    line-height: 1;
-    word-break: keep-all;
-    white-space: normal;
 }
 
 .line1 {
@@ -477,7 +462,6 @@ section {
     z-index: 2;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 
-    /*텍스트 스타일 */
     font-family: 'Noto Serif';
     font-weight: 700;
     font-size: 1.3vw;
@@ -517,16 +501,14 @@ section {
     width: 40vw;
 }
 
-
-
-.int11 {
+.int13 {
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 3vw;
     font-weight: 500;
     line-height: 1.5;
     margin-bottom: 1vw;
     margin-top: -1vw;
-    margin-bottom: 1vw;
+    margin-bottom: 0.5vw;
 
 }
 
@@ -538,11 +520,11 @@ section {
   }
   
 
-.int12,
-.int13 {
-    font-family: 'Montserrat', sans-serif;
+.int14,
+.int15 {
+    font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
-    font-size: 1.6vw;
+    font-size: 1.2vw;
     color: rgb(87, 86, 86);
     line-height: 1;
     word-break: keep-all;
@@ -557,46 +539,114 @@ section {
 }
 
 .leftimage {
-    width: auto;
+    width: 25vw;
     height: 80vh;
     object-fit: cover;
     display: block;
     margin: 0;
     padding: 0;
-  }
+}
 
-  .gray-box {
+.phone-image {
     position: absolute;
-    right: -10vw;
-    bottom: 10vw;  
-    background-color: #434343;
-    width: 16vw;
-    height: 6vw;
+    top: 40%;
+    left: 0vw;
+    transform: translateY(-30%);
+
+    width: 40vw;
+    max-width: none;
+    z-index: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
     box-sizing: border-box;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    min-height: 0;
+}
 
-    font-family: 'Noto Serif';
-    font-weight: 700;
-    font-size: 2vw;
-    color: rgb(255, 255, 255);
-    line-height: 1.4;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-
-    gap:0.5vw;
-
-  }
-
-  .bell2{
-    filter: brightness(0) invert(1);
-
-    width: 2.5vw;
+.phone-image img {
+    display: block;
+    width: 100%;
     height: auto;
+}
+
+.bell2 {
+    filter: brightness(0) invert(1);
+    width: 2.5vw;
+    height: 1vw;
     display: inline-block;
-  }
+}
 
 /* 영서 */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 4vw;
+    gap: 5vw;
+    background-color: white;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+  
+.image-section {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    max-width: 20vw;
+}
+  
+.calendar-image {
+    width: 100%;
+    height: auto;
+    max-height: 50vh;
+}
+  
+.text-section {
+    flex: 0 0 auto;
+    max-width: 45vw;
+    color: #333;
+    margin-right: 3vw;
+    height: auto;
+}
+  
+.c1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: black;
+    font-size: 2.7vw;
+    font-weight: bold;
+    margin-bottom: 2vw;
+}
+  
+.c2 {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-left: 1.2vw;
+    font-size: 1.5vw; 
+    line-height: 1.6;
+}
+
+.f1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 2.7vw;
+    font-weight: 600;
+}
+
+.final {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Appl, .Android {
+    font-family: 'Noto Sans KR', serif;
+    font-size: 1vw;
+    font-weight: 400;
+    margin-right: 1vw;
+}
 
 /* 재성 */
 footer {

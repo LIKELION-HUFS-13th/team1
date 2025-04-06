@@ -116,7 +116,6 @@ section {
     z-index: 2;
 }
 
-
 #page1 .intro {
     flex: 1;
     display: flex;
@@ -134,7 +133,7 @@ section {
 }
 
 .int2 {
-    margin-bottom: 1vw;;
+    margin-bottom: 1vw;
 }
 
 .int3,
@@ -240,7 +239,6 @@ section {
     margin-left: 2.5vw;
     max-width: 40vw;
 }
-
 
 .icons {
     display: flex;
@@ -469,8 +467,8 @@ section {
 .white-box {
     position: absolute;
     top: 50%;
-    right: -8vw; 
-    transform: translateY(-50%); 
+    right: -8vw;
+    transform: translateY(-50%);
     width: 16vw;
     height: 8vw;
     background-color: white;
@@ -512,12 +510,10 @@ section {
 }
 
 .text2 {
-    position:relative;
+    position: relative;
     text-align: right;
     width: 40vw;
 }
-
-
 
 .int11 {
     font-family: 'Noto Sans KR', sans-serif;
@@ -527,16 +523,13 @@ section {
     margin-bottom: 1vw;
     margin-top: -1vw;
     margin-bottom: 1vw;
-
 }
 
-  
 .line2 {
     width: 40vw;
     border: 1px solid rgb(242, 235, 235);
     margin-top: 2vw;
-  }
-  
+}
 
 .int12,
 .int13 {
@@ -548,12 +541,19 @@ section {
     word-break: keep-all;
     white-space: normal;
     margin-bottom: 1.5;
-
 }
 
 .image2 {
-    margin-left:-10vw;
-    position:relative;
+    margin-left: -10vw;
+    position: relative;
+    height: 80vh;
+    width: fit-content;
+}
+
+.image2 > img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .leftimage {
@@ -563,38 +563,37 @@ section {
     display: block;
     margin: 0;
     padding: 0;
-  }
+}
 
-  .gray-box {
+.gray-box {
     position: absolute;
     right: -10vw;
-    bottom: 10vw;  
+    top: 400px;
     background-color: #434343;
     width: 16vw;
     height: 6vw;
     box-sizing: border-box;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
     font-family: 'Noto Serif';
     font-weight: 700;
     font-size: 2vw;
     color: rgb(255, 255, 255);
     line-height: 1.4;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-    gap:0.5vw;
+    gap: 0.5vw;
+}
 
-  }
-
-  .bell2{
+.bell2 {
     filter: brightness(0) invert(1);
 
     width: 2.5vw;
     height: auto;
     display: inline-block;
-  }
+}
 
 /* 영서 */
 

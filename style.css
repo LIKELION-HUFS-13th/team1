@@ -1,4 +1,3 @@
-/* 전체 레이아웃 */
 body {
     margin: 0;
     font-family: 'Noto Sans KR', sans-serif;
@@ -10,7 +9,6 @@ body {
     width: 100vw;
 }
 
-/* 왼쪽: 배경 이미지 */
 .left {
     width: 50%;
     height: 100vh;
@@ -20,7 +18,6 @@ body {
     background-position: center;
 }
 
-/* 아이콘 */
 .onoff-icon {
     position: absolute;
     top: 75%;
@@ -29,7 +26,6 @@ body {
     width: 120px;
 }
 
-/* 오른쪽: 텍스트 박스 */
 .right {
     width: 50%;
     height: 100vh;
@@ -42,14 +38,14 @@ body {
 }
 
 .main-text {
-    font-size: 28px;
+    font-size: 3vw;
     color: #333;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 1.5vw;
 }
 
 .sub-text {
-    font-size: 16px;
+    font-size: 1.2vw;
     color: #666;
     line-height: 1.6;
 }

@@ -288,6 +288,28 @@ section {
 /* 황준호 */
 
 /* 홍시은 */
+.phone-image {
+    position: absolute;
+    top: 40%;
+    left: 0vw;
+    transform: translateY(-30%);
+    width: 40vw;
+    max-width: none;
+    z-index: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    min-height: 0;
+}
+
+.phone-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .reel-page {
     position: relative;
     display: flex;
@@ -337,9 +359,7 @@ section {
 
 .image-section {
     width: 60vw;
-    position: relative;
     height: 100vh;
-    overflow: hidden;
 }
 
 .gray-box {
@@ -356,8 +376,8 @@ section {
 
 .phone-image {
     position: absolute;
-    top: 40%;
-    left: 0vw;
+    top: 35%;
+    left: 25vw;
     transform: translateY(-30%);
 
     width: 40vw;
@@ -437,7 +457,7 @@ section {
     flex-direction: column;
     align-items: center;
     gap: 1vw;
-    margin-left: 1vw;
+    margin-left: 6vw;
 }
 
 .image {
@@ -482,8 +502,10 @@ section {
     z-index: 3;
 }
 
+
 .part4 {
     display: flex;
+    flex-direction: flex-end;
     justify-content: space-between;
     align-items: center;
     gap: 7vw;
@@ -495,87 +517,90 @@ section {
     box-sizing: border-box;
 }
 
+.text2-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
 .text2 {
-    position:relative;
-    text-align: right;
     width: 40vw;
+    text-align: right;
 }
 
 .int13 {
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 3vw;
+    font-size: 2.7vw;
     font-weight: 500;
     line-height: 1.5;
-    margin-bottom: 1vw;
-    margin-top: -1vw;
-    margin-bottom: 0.5vw;
-
 }
 
-  
 .line2 {
     width: 40vw;
     border: 1px solid rgb(242, 235, 235);
-    margin-top: 2vw;
-  }
-  
+}
 
 .int14,
 .int15 {
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 1.2vw;
-    color: rgb(87, 86, 86);
     line-height: 1;
     word-break: keep-all;
     white-space: normal;
     margin-bottom: 1.5;
-
 }
 
 .image2 {
-    margin-left:-10vw;
-    position:relative;
+    margin-left: 7vw;
+    position: relative;
+    height: 80vh;
+    width: fit-content;
+}
+
+.image2 > img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .leftimage {
-    width: 25vw;
-    height: 80vh;
+    width: auto;
+    height: 100vh;
     object-fit: cover;
     display: block;
-    margin: 0;
+    margin-left: 2vh;
     padding: 0;
 }
 
-.phone-image {
+.gray-box2 {
     position: absolute;
-    top: 40%;
-    left: 0vw;
-    transform: translateY(-30%);
+    right: -10vw;
+    top: 400px;
+    background-color: #434343;
+    width: 16vw;
+    height: 6vw;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
-    width: 40vw;
-    max-width: none;
-    z-index: 1;
-
+    font-family: 'Noto Serif';
+    font-weight: 700;
+    font-size: 2vw;
+    color: rgb(255, 255, 255);
+    line-height: 1.4;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-sizing: border-box;
-    min-height: 0;
-}
-
-.phone-image img {
-    display: block;
-    width: 100%;
-    height: auto;
+    gap: 0.5vw;
 }
 
 .bell2 {
     filter: brightness(0) invert(1);
     width: 2.5vw;
-    height: 1vw;
+    height: auto;
     display: inline-block;
 }
+
 
 /* 영서 */
 
@@ -641,11 +666,55 @@ section {
     align-items: center;
 }
 
+.DLbutton {
+    display: flex;
+    flex-direction: flex-end;
+}
+
 .Appl, .Android {
+    display: flex;
+    flex-direction: flex-end;
     font-family: 'Noto Sans KR', serif;
     font-size: 1vw;
     font-weight: 400;
-    margin-right: 1vw;
+    margin-right: 2vw;
+    height: 3vw;
+    width: 11vw;
+    border-color:#aaaaaa;
+    border-radius: 10px;
+}
+
+.AAPL, .Google {
+    margin-right: 1.5vw;
+    height: 2vw;
+    margin-top: 7px;
+}
+
+.AS, .GP {
+    align-items: center;
+    margin-top: 10px;
+}
+
+.gray-box2 {
+    position: absolute;
+    right: -10vw;
+    top: 400px;
+    background-color: #434343;
+    width: 16vw;
+    height: 6vw;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    font-family: 'Noto Serif';
+    font-weight: 700;
+    font-size: 2vw;
+    color: rgb(255, 255, 255);
+    line-height: 1.4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 0.5vw;
 }
 
 /* 재성 */

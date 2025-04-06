@@ -1,51 +1,46 @@
-body {
-    margin: 0;
-    font-family: 'Noto Sans KR', sans-serif;
-}
-
 .container {
     display: flex;
-    height: 100vh;
     width: 100vw;
+    height: 100vh;
 }
 
 .left {
     width: 50%;
-    height: 100vh;
     position: relative;
-    background-image: url('door.jpg');
-    background-size: cover;
-    background-position: center;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.door-image {
+    width: 60%;
+    height: auto;
 }
 
 .onoff-icon {
     position: absolute;
-    top: 75%;
-    left: 100%;
-    transform: translate(-50%, -50%);
-    width: 120px;
+    width: 10vw;
+    bottom: 10vw;
+    left: 35vw;
 }
 
 .right {
     width: 50%;
-    height: 100vh;
-    background-color: #f9f9f9;
+    padding: 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 60px;
-    box-sizing: border-box;
 }
 
 .main-text {
-    font-size: 3vw;
-    color: #333;
-    font-weight: 500;
+    font-size: 2.5vw;
+    font-weight: bold;
     margin-bottom: 1.5vw;
 }
 
 .sub-text {
-    font-size: 1.2vw;
-    color: #666;
+    font-size: 1.1vw;
+    color: #555;
     line-height: 1.6;
 }
